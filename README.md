@@ -1,7 +1,7 @@
 # ML-RANS-Turbulence-Modeling-Variable-Property-Flows
 
 PyTorch source code linked to the publication:
-* R. Diez Sanhueza, S.H.H.J. Smit, J. W.R. Peeters, R. Pecnik (2023). Machine learning for RANS turbulence modeling of variable property flows. Computers & Fluids, vol. 255, p. 105835. https://www.sciencedirect.com/science/article/pii/S0045793023000609
+* R. Diez Sanhueza, S.H.H.J. Smit, J.W.R. Peeters, R. Pecnik (2023). Machine learning for RANS turbulence modeling of variable property flows. Computers & Fluids, vol. 255, p. 105835. https://www.sciencedirect.com/science/article/pii/S0045793023000609
 
 <img src="img/fiml_varprops_example.png" alt="drawing" width="400"/>
 

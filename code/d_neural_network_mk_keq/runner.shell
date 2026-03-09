@@ -1,0 +1,20 @@
+my_file=main.py
+my_device=cuda:0
+my_pgroups=pgroups_3
+my_layers=T5__T2__T1
+my_dloss=delta_loss_L2
+my_plog=p_loglayer_None
+for my_Kfold in {1..10}
+do
+for my_reg in 1e-6 1e-5 1e-4 1e-3 1e-2 1e-1 1 
+do
+    echo "python ${my_file} ${my_device}  Kfold_${my_Kfold}  ${my_pgroups}  ${my_layers}  ${my_dloss}  ${my_plog}  p_change_L2x${my_reg}"
+done
+done
+
+
+
+
+
+
+

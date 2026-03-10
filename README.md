@@ -12,7 +12,7 @@ PyTorch source code linked to the publication:
 * Results are stored as plain JSON files (zip-compressed) for improved transparency and compatibility.
 
 ## How to use
-- To better understand the project, the Python code is split into 5 (sequential) subfolders:
+- For simplicity, the Python code is split into 5 (sequential) subfolders:
 
    a) `code/a_dns`: 
      - Import reference DNS data considered in the study (from `data/input`).

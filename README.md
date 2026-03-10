@@ -14,20 +14,15 @@ PyTorch source code linked to the publication:
 ## How to use
 - For simplicity, the Python code is split into 5 (sequential) subfolders:
 
-   a) `code/a_dns`: 
-     - Import reference DNS data considered in the study (from `data/input`).
-
-   b) `code/b_rans_solver`: 
-     - CFD solver with various RANS turbulence models (Cess, MK, Spalart-Allmaras, SST, and V2F).
-
-   c) `code/c_field_inversion`: 
-     - Field inversion optimizer for the MK turbulence model (hosted in `code/b_rans_solver`).
-
-   d) `code/d_neural_network_mk_keq`: 
-    - Machine learning framework containing the neural network architecture, datasets, training procedure, and validation assessment.
-   
-   e) `code/e_injecting_corrections`:
-    - Advanced script to inject the neural network corrections back into the CFD solver, using the appropriate stabilization methodology.
+   a) `code/a_dns`: Import reference DNS data considered in the study (from `data/input`).
+  
+   b) `code/b_rans_solver`: CFD solver with various RANS turbulence models (Cess, MK, Spalart-Allmaras, SST, and V2F).
+  
+   c) `code/c_field_inversion`:  Field inversion optimizer for the MK turbulence model (hosted in `code/b_rans_solver`).
+  
+   d) `code/d_neural_network_mk_keq`:  Machine learning framework containing the neural network architecture, datasets, training procedure, and validation assessment.
+  
+   e) `code/e_injecting_corrections`: Advanced script to inject the neural network corrections back into the CFD solver, using the appropriate stabilization methodology.
 
 - Please note that each subfolder depends on the previous components: $a \to b \to c \to d \to e$.
   - The folder `code/misc` only contains a few general-purpose functions for the rest of the code.

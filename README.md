@@ -9,7 +9,7 @@ PyTorch source code linked to the publication:
 * Organized repository, with a clear separation between the different software components:
   - CFD solver, field inversion, neural network training, injection of neural network corrections, etc.
 * Written in modern PyTorch, with CUDA support.
-* Results are stored as plain JSON files (zip-compressed) for improved transparency and compatibility.
+* Results are stored as plain JSON files (zip-compressed) for transparency and compatibility.
 
 ## How to use
 - For simplicity, the Python code is split into 5 (sequential) subfolders:
